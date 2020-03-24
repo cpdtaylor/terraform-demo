@@ -14,6 +14,6 @@ provider "aws" {
 }
 
 resource "aws_instance" "chris-tf-test-1" {
-  ami           = "ami-b374d5a5"
+  ami           = "ami-04d5cc9b88f9d1d39"
   instance_type = "t2.micro"
 }
